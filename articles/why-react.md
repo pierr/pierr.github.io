@@ -1,19 +1,20 @@
 # Pourquoi est ce qu'on utilise React sur Focus
 
 Dans la communauté JavaScript il existe de nombreuses **librairies** et **Frameworks** permettant d'abstraire et de simplifier la création de composants graphiques, d'application , ...
-Il n'y a pas de mauvais choix l'objectif ici est de présenter pourquoi nous avons fait celui ci.
 
 Parmi les plus connus il y a:
 
 - jQuery, qui a permi la démocratisation du JavaScript à grande échelle.
-- Backbone.js, qui est la première librairie qui a permis le développement d'application complète en JavaScript côté client. Aujourd'hui encore il s'agit de la librairie la plus utilisée en production. La première version de Focus chez Klee était construite autour de Backbone.js. Backbone repose sur trois grands principes: le model, la vue et le routeur.
+- Backbone.js, qui est la première librairie qui a permis le développement d'application complète en JavaScript côté client. Aujourd'hui encore il s'agit de la librairie la plus utilisée en production. La première version de Focus chez Klee était construite autour de Backbone.js. Backbone repose sur trois grands principes: le model, la vue et le routeur. Il est très léger (environ 1000 lignes de code) et simple d'utilisation.
 - Angular qui est gérée par Google et est un Framework complet qui est aujourd'hui un des plus connu.
 - Ember.js qui est une librairie open source
-- React qui est une librairie créé par Facebook pour
+- React qui est une librairie créé par Facebook servant à créer des composants graphiques
 - Polymer qui est une  librairie de web-components créé par Google.
 - Cycle.js qui est une librairie avec une approche fonctionnelle construite autour de Rx.
 
 Le but de cet article n'est pas de vous détailler les autres librairies mais plutôt d'expliquer pourquoi nous avons fait le choix de React.
+A noter qu'il n'y a pas de mauvais ou de bon choix et que chaque librairie apporte des réponses différentes à différents problèmes.
+
 
 ## React repose sur des concepts très simplifier
 
@@ -62,14 +63,18 @@ Facebook a introduit le jsx qui est un mélange entre le HTML et le JavaScript, 
 
 A l'inverse d'Angular qui est un framework proposant une stack complète, React est une librairie qui sert à créer des composants graphiques et pas plus. Il est recommandé de l'utiliser avec le pattern `flux` qui permet de mettre en musique les composants sur une application assez large.
 C'est ce qui fait sa force, React repose sur des concepts simples et souple dans son utilisation.
+> Il faut noter que React et Angular par exemple n'ont pas le même périmètre, React s'utilise avec d'autres librairies alors qu'angular impose une stack complète.
 
 ## Qui utilise cette librairie en production
 
-Une des forces de React est le fait qu'avant d'être ouvert en open source, il a été développé et utilisé en interne chez Facebook. Cette librairie était donc utilisé à grande échelle en production avant d'être ouverte au monde.
-La simplicité de React et le fait que cette librairie serve à une chose unique : créer des composants graphiques, a sucité une adoption immédiate par la communauté JavaScript.
+Une des forces de React est le fait qu'avant d'être ouvert en open source, il a été développé et utilisé en interne chez Facebook. Cette librairie était donc été déployée à grande échelle en production avant d'être ouverte au monde.
+La simplicité de React et le fait que cette librairie serve à une chose : créer des composants graphiques, a sucité une adoption immédiate par la communauté JavaScript.
 Aujourd'hui React est utilisé par Netflix, Yahoo, Twitter, AirbnB, M6 web, Cana plus et même Klee Group...
-
 A titre d'exemple aucune application google de production utilise angular.
+
+> React dispose aujourd'hui:
+> - d'une communauté très importante et grandissante. 
+> - de retour très complet d'utilisation en production sur de grosses applications
 
 ## React est aujourd'hui un écosystème
 
