@@ -1,4 +1,4 @@
-# Pourquoi utilise-t-on React sur Focus ?
+# Pourquoi utilise-t-on React ?
 
 Dans la communauté JavaScript, il existe de nombreuses **librairies** et **Frameworks** permettant d'abstraire et de simplifier la création de composants graphiques, d'application , ...
 
@@ -16,7 +16,7 @@ Le but de cet article n'est pas de vous détailler les autres librairies mais pl
 Il faut noter qu'il n'y a pas de mauvais ou de bon choix, et que chaque librairie apporte des réponses différentes à différents problèmes.
 
 
-## React repose sur des concepts très simplifiés
+## React repose sur des concepts très simples
 
 Dans React tout est composant, un composant dispose des fonctionnalités suivantes:
 - Il dispose d'un cycle de vie clair et défini
@@ -57,6 +57,7 @@ Facebook a introduit le jsx qui est un mélange entre le HTML et le JavaScript, 
 
 > Le jsx bien qu'étrange et rebutant au premier abord est une des clef du succès et de l'adoption rapide de React.
 > Aujourd'hui d'autres librairies comme cycle.js se base sur le JSX pour rendre le HTML.
+> On peut même utiliser le jsx pour avoir une autre sortie que le HTML.
 ![schema jsx => js]()
 
 ## React s'utilise-t-il seul?
@@ -70,7 +71,7 @@ C'est ce qui fait sa force, React repose sur des concepts simples et souple dans
 Une des forces de React est le fait qu'avant d'être ouvert en open source, il a été développé et utilisé en interne chez Facebook. Cette librairie a donc été déployée à grande échelle en production avant d'être ouverte au monde.
 La simplicité de React est le fait que cette librairie serve à une chose: créer des composants graphiques, a sucité une adoption immédiate par la communauté JavaScript.
 Aujourd'hui React est utilisé par Netflix, Yahoo, Twitter, AirbnB, M6 web, Cana plus et même Klee Group...
-A titre d'exemple aucune application google de production utilise angular.
+A titre d'exemple aucune application google en production utilise angular.
 
 > React dispose aujourd'hui:
 > - d'une communauté très importante et grandissante. 
