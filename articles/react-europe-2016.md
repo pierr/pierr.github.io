@@ -29,6 +29,11 @@ Il a ensuite réalisé une démo d'intégration d'une extention de chat au sein 
 > Ce talk était intéressant au début pour les principes exposés ainsi que par les problèmes qu'ils cherchent à résoudre.
 > En revanche le présentateur s'est embarqué dans une explication de code très détaillée qui était un peu longue.
 
+## A cartoon intro to performance par [@linclark](https://mobile.twitter.com/linclark)
 
-
+Ce talk de @linclark était vraiment géniale. J'avais déjà vu une autre conférence d'elle à la react conf (en streaming) sur les différentes implémentations de flux et c'était extrèmement bien présenté.
+Concernant ce talk, il s'agit d'un sorte de personification de ce qu'il se passe dans le navigateur lors du rendu et ensuit  de comment procède React pour rendre les composants. 
+Il y avait ensuite plusieurs conseils concernant les optimisations facile à faire sur du code React.
+Exemple simple: `{(props) => <ul>{props.list.map(element => <div key={element.id}>{element.name}</div>}</ul>}` permet d'améliorer les performances de rendu des listes en utilisant une clef unique sur la données.( Mettre la position dans la liste est par exemple une mauvaise idée).
+> Ce talk est vraiment super, je pense que je volerai quelques idées pour la prochaine session du formation
 
