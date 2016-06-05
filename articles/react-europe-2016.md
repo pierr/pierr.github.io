@@ -37,3 +37,10 @@ Il y avait ensuite plusieurs conseils concernant les optimisations facile à fai
 Exemple simple: `{(props) => <ul>{props.list.map(element => <div key={element.id}>{element.name}</div>}</ul>}` permet d'améliorer les performances de rendu des listes en utilisant une clef unique sur la données.( Mettre la position dans la liste est par exemple une mauvaise idée).
 > Ce talk est vraiment super, je pense que je volerai quelques idées pour la prochaine session du formation
 
+## Transition, Animation avec React native par @krzys
+
+Ce talk était à propos des animations dans React Native, par un ancien de Facebook. Il a parlé des différences entre les animations de Layout et de composants,. `<AnimatedView><Component /></AnimatedView>`
+> Ce talk m'a rappellé les talks de l'année dernière sur les animations de composants. Il était très technique et répond à des problématiques assez poussées sur les animations avec React native.
+
+## Comment avoir un projet open source qui marche par @vjeux
+
