@@ -20,4 +20,15 @@ Il est revenu sur le fait d'avoir **marquetté** sa librairie: documentation, tw
 > Cette Keynote était très interessante mais à mon sens ce n'était pas une keynote mais un talk comme un autre.
 > Ce retour d'expérience qur redux était cependant très intéressant, il m'a conforté dans le choix de redux pour les extensions et la prochaine version du form.
 
-## Navigation native pour toutes les plateformes
+## Navigation native pour toutes les plateformes par [Eric Vicenti](https://twitter.com/ericvicenti)
+
+Son objectif est de résoudre le problème de la navigation entre application native, le web et intra application.
+Il a commencé par montrer comment structurer son code avec redux afin d 'avoir des modules applicatifs complètements indépendants.
+En gros il y a un manager d'url externe et plusieurs reducer indépendants qui contiennent une possibilité de commiquer avec un hub de navigation.
+Il a ensuite réalisé une démo d'intégration d'une extention de chat au sein de plusieurs applications natives.
+> Ce talk était intéressant au début pour les principes exposés ainsi que par les problèmes qu'ils cherchent à résoudre.
+> En revanche le présentateur s'est embarqué dans une explication de code très détaillée qui était un peu longue.
+
+
+
+
