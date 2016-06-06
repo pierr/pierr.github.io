@@ -67,3 +67,21 @@ Le but de GraphQL est d'avoir une source unique de vérité.
 - Pour les performances, ils ont ajouté pour tous les noeuds de même niveau du `batch request` et il y ba un `data-loader` qui a été open sourcé par Facebook à ce propos. Ceci sert à la fois au cache et au batch des requêtes de même niveau.
 
 > Ce talk était très intéressant car permettait d'adresser des problématiques très concrètes et pas forcément mise en avant avec GraphQL. Il était également très clair dans sa formulation.
+
+
+## Flow : linter on steroids
+
+Flow est un outil développé par Facebook et utilisé massivement sur leurs projets. Il permet par une analyse poussée du code de : 
+- Prévenir les erreurs
+- Fournir de l'auto complétion
+- D'ajouter du typage aux définitions de certaines fonctions et objets
+
+Il a bien insisté sur le fait que Flow n'était pas un langage qui redéfinissait JavaScript, ni un compilateur mais bien un outil d'analyse de code. Flow fonctionne directement sur n'importe quel fichier JavaScript. 
+Il a ensuité détaillé le fonctionnement de Flow: `codeJS => AST (Abstract Syntax Tree) => Flow Graph`.
+Le flow graph étant un flux de data en provenance du code source. A partir de ce graph il est possible de trouver: le code mort, les erreurs de syntaxes, c'est un outil pour l'intelligence du code.
+Les performances de flow sont très élevées.
+Le support Windows a été annoncé pour ce mois dans la conférence, et il fonctionne déjà sur la version beta de windows 10.1.
+
+> L'approche de flow est vraiment très interessante, il se pose comme une alternative à TypeScript. Bien qu'ayant des objectifs légèrement différents. On sent que l'objectif ici est vraiement d'améliorer l'expérience du Dévelopeur plus que de définir un nouveau langage.
+
+
