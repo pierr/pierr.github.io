@@ -84,4 +84,10 @@ Le support Windows a été annoncé pour ce mois dans la conférence, et il fonc
 
 > L'approche de flow est vraiment très interessante, il se pose comme une alternative à TypeScript. Bien qu'ayant des objectifs légèrement différents. On sent que l'objectif ici est vraiement d'améliorer l'expérience du Dévelopeur plus que de définir un nouveau langage.
 
+## Redux dev tools extension
 
+Redux est venu avec pas mal de petites extensions visant à améliorer l'expérience du développeur. Un contrat de définition d'un extension a même été défini. 
+Ici il était question d'un projet qui permet de faire tourner ces extensions à l'intérieur d'une extension chrome et ou en remote.
+Il est donc possible d'activer ces extensions sur des environnements de test et/ ou de recette afin de récupérer des informations sur l'application ou rejouer facilement des actions utilisateurs.
+
+> Cette présentation était pleine de démo et avec pas mal de petites astuces à mettre en place dans les projets.
