@@ -53,4 +53,14 @@ Quand ils ont open sourcé **React**, plusieurs personnes étaient présentes su
 - Une autre question à poser est qu'est ce que vous avez construit d'intéressant avec ma librairie? 
 - Egalement faire du `Demo Driven Developpement`, le feedback visuel régulier est très important.
 - Il faut également encourager les utilisateurs à écrire des articles de blog. Au début de React, il a demandé  30 utilisateurs de faire un article sur leur utilisation de React. Ceci a généré une très forte impression d'adoption de react dès le début et a grandement favorisé son adoption.
+
 > Ce talk était vraiment super instructif, et très inspirant. Je pense que je vais essayer d'en appliquer les grands principes rapidement.
+
+## Facebook GraphQL stack
+
+Le but de ce talk était de présenter comment faire pour traiter les problématiques courantes avec GraphQL ou plutôt comment il font chez Facebook.
+Les problématiques abordées étaient: l'autorisation, le cache et les performances.
+Le premier point sur lequel il a insisté était le fait qu'il faut voir les données comme un graph et non comme un endpoint.
+Le but de GraphQL est d'avoir une source unique de vérité.
+
+- Pour la sécurité, un pattern émerge, l'ensemble des fonctions `resolve` doivent prendre en entrée un second argument avec `async gen(viewer, resourceId)`, le viewer étant récupéré depuis un token fournit dans la requête HTTP via `Viewer.fromAuthToken(request.authToken)`
