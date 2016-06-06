@@ -110,3 +110,12 @@ Il est ensuite revenu sur plusieurs cas concrets:
 - Le css en JS plutôt que via des feuilles de styles (function vs data)
 
 Le plus important est d'avoir une api de faible surface et de faire des cas concrets.
+
+> Talk très très interessant, avec beaucoup de recul, et qui fait réfléchir.
+
+## React redux et les analytics
+
+Le but de cette présentation était de présenter un middleware redux. Ils ont ajoutés beaucoup de meta données dans les actions afin de pouvoir les analyser et les traiter dans un middleware spécifique.
+La partie intéressante était de pouvoir se connecter à toutes les plateformes de dev.
+> Personnellement je n'ai pas apris grand chose et j'ai trouvé que la manière de faire était très **verbeuse**.
+> En revanche il faut certainement s'en inspirer un peu.
