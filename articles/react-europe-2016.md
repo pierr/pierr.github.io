@@ -101,5 +101,12 @@ Faire une librairie revient à prendre des décisions tout le temps.
 Plus on abstrait plus on perd potentiellement l'utilisateur,  plus on essaye d'abstraire des cas spécifiques plus on perd du pouvoir.
 Si on cherche tous du pouvoir, quel est la bonne manière de l'utiliser ?
 
+Par exemple pour React l'abstraction est `react` qui dispose de très peu de concept, l'utilisateur construit des apps avec React et entre les deux il y a le système de plugin de react.
 
-Par exemple pour
+Il est ensuite revenu sur plusieurs cas concrets:
+- Les templates en JS plutôt qu'en HTML, c'est une contrainte et donc concession intellectuelle, mais qui apporte beaucoup plus de pouvoir à l'utilisateur: un template est une fonction plutôt que des data. Diff sur les vues plutôt que sur les modeles.
+
+- La mutabilité vs l'immutabilité
+- Le css en JS plutôt que via des feuilles de styles (function vs data)
+
+Le plus important est d'avoir une api de faible surface et de faire des cas concrets.
