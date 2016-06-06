@@ -90,4 +90,16 @@ Redux est venu avec pas mal de petites extensions visant à améliorer l'expéri
 Ici il était question d'un projet qui permet de faire tourner ces extensions à l'intérieur d'une extension chrome et ou en remote.
 Il est donc possible d'activer ces extensions sur des environnements de test et/ ou de recette afin de récupérer des informations sur l'application ou rejouer facilement des actions utilisateurs.
 
-> Cette présentation était pleine de démo et avec pas mal de petites astuces à mettre en place dans les projets.
+> Cette présentation était pleine de démos et avec pas mal de petites astuces à mettre en place dans les projets.
+
+## On the spectrum of abstraction par @_chenglou
+
+Faire une librairie revient à prendre des décisions tout le temps.
+- Pour les `Computer Scientist` abstraire les choses représente le graal. => Abstraire apporte un pouvoir
+- Pour les `Software Engineer` ce sont les cas concret qui sont son travail quotidien => cac concret contrait par l'abstraction
+
+Plus on abstrait plus on perd potentiellement l'utilisateur,  plus on essaye d'abstraire des cas spécifiques plus on perd du pouvoir.
+Si on cherche tous du pouvoir, quel est la bonne manière de l'utiliser ?
+
+
+Par exemple pour
