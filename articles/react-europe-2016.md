@@ -65,3 +65,5 @@ Le but de GraphQL est d'avoir une source unique de vérité.
 
 - Pour la sécurité, un pattern émerge, l'ensemble des fonctions `resolve` doivent prendre en entrée un second argument avec `async gen(viewer, resourceId)`, le viewer étant récupéré depuis un token fournit dans la requête HTTP via `Viewer.fromAuthToken(request.authToken)`
 - Pour les performances, ils ont ajouté pour tous les noeuds de même niveau du `batch request` et il y ba un `data-loader` qui a été open sourcé par Facebook à ce propos. Ceci sert à la fois au cache et au batch des requêtes de même niveau.
+
+> Ce talk était très intéressant car permettait d'adresser des problématiques très concrètes et pas forcément mise en avant avec GraphQL. Il était également très clair dans sa formulation.
