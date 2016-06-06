@@ -44,3 +44,13 @@ Ce talk était à propos des animations dans React Native, par un ancien de Face
 
 ## Comment avoir un projet open source qui marche par @vjeux
 
+@vjeux est un français qui travaille chez Facebook. Il est impliqué dans tous les projets open source qui ont fonctionnés chez Facebook. **Comment fait-il?**.
+Premier point, chez Facebook, on ne sort en open source que les projets qui sont utilisés en production et qui sont suceptibles d'avoir une utilité à l'extérieur.
+Pour lui il est important de se poser la question suivante: Comment faire participer la communauté?
+Quand ils ont open sourcé **React**, plusieurs personnes étaient présentes sur les différents canaux de communications: Github, Stack OverFlow, des conférences mais toutes étaient  sur IRC.
+- Le pluse simple pour avoir du bon feedback, poser la question suivante:  Qu'est ce qui est difficile à faire? Les utilisateurs savent le mieux ce qui fonctionne et ce qui ne fonctionne pas. En revanche pour certains points, il est plus utile d'avoir le feedback des utilisateurs plutôt que les suggestions de corrections, en général, la core team sait le mieux comment résoudre le problème, car ils ont tous les cas en tête.
+- Un autre point est d'éduquer les utilisateurs. Par exemple les utilisateurs de react avaient toujours le message d'erreur sans en comprendre la source: `Invariant Violation`. Ils ont fait une doc pour expliquer qu'il ne fallait pas utiliser les sources minifiées en dev afin d'avoir les vrais messages d'erreur. Mais personne ne lit la doc... Ils ont donc changés le message d'erreur en disant que s'ils voulaient le message complet il suffisait d'utiliser les sources non minifiées.
+- Une autre question à poser est qu'est ce que vous avez construit d'intéressant avec ma librairie? 
+- Egalement faire du `Demo Driven Developpement`, le feedback visuel régulier est très important.
+- Il faut également encourager les utilisateurs à écrire des articles de blog. Au début de React, il a demandé  30 utilisateurs de faire un article sur leur utilisation de React. Ceci a généré une très forte impression d'adoption de react dès le début et a grandement favorisé son adoption.
+> Ce talk était vraiment super instructif, et très inspirant. Je pense que je vais essayer d'en appliquer les grands principes rapidement.
